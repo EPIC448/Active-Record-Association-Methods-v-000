@@ -10,7 +10,7 @@ class Song < ActiveRecord::Base
     # when this method is called it should assign the song's artist to Drake
     artist = Artist.create(name: "Drake")
     # .create method inintazlie and save the object for us.
-    self.artist = artist
+    # self.artist = artist
     # artist
   end
 
