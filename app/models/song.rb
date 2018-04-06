@@ -11,7 +11,6 @@ class Song < ActiveRecord::Base
     artist = Artist.create(name: "Drake")
     # .create method inintazlie and save the object for us.
     self.artist = artist
-    self.artist
     artist
   end
 
