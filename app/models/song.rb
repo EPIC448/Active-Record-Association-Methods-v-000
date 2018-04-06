@@ -12,6 +12,7 @@ class Song < ActiveRecord::Base
     # .create method inintazlie and save the object for us.
     self.artist = artist
     self.artist
+    artist
   end
 
 end
